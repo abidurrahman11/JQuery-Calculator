@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background: linear-gradient(45deg, rgb(252, 216, 164), rgb(255, 239, 14));
+    height: 100vh;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    padding: 50px;
+}
+
+.calchead{
+    background-color: black;
+    padding-top: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.calchead input{
+    width: 210px;
+    height: 50px;
+    text-align: right;
+    font-size: 22px;
+}
+
+.calcbody{
+    width: 280px;
+    height: 300px;
+    padding-top: 20px;
+    background-color: black;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.calcbody input{
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.black{
+    background: black;
+    border: none;
+}
